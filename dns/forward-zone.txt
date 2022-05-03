@@ -1,5 +1,3 @@
-*** Forward Zone
-
 zone "miproyecto.local" IN { // Domain name : miproyecto.local
     
       type master; // Primary DNS : master
