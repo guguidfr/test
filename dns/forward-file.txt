@@ -1,4 +1,4 @@
-*** Forward lookup file
+;--- Forward lookup file
 
 $TTL	604800
 @	IN	SOA	dns.miproyecto.local. root.miproyecto.local. (
@@ -15,10 +15,6 @@ $TTL	604800
 
 dns	IN	A	192.168.1.150
 
-;--- Mail Exchanger ( if exists )
-
-;---hg.local.	IN	MX 10	mail1.hg.local.
-
 ;--- A - Record HostName To Ip Address
 
 grafana	IN	A	192.168.1.151
@@ -29,10 +25,10 @@ apache  IN  A   192.168.1.154
 ;--- CNAME record
 
 www	IN	CNAME 	grafana.miproyecto.local.
-;--- ftp	IN	CNAME	grafana.miproyecto.local.
+ftp	IN	CNAME	grafana.miproyecto.local.
 www	IN	CNAME 	psql.miproyecto.local.
-;--- ftp	IN	CNAME	psql.miproyecto.local.
+ftp	IN	CNAME	psql.miproyecto.local.
 www	IN	CNAME 	wp.miproyecto.local.
-;--- ftp	IN	CNAME	wp.miproyecto.local.
+ftp	IN	CNAME	wp.miproyecto.local.
 www	IN	CNAME 	apache.miproyecto.local.
-;--- ftp	IN	CNAME	apache.miproyecto.local.
+ftp	IN	CNAME	apache.miproyecto.local.
