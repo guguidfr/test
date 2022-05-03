@@ -1,5 +1,3 @@
-*** Reverse Zone 
-
 zone "1.168.192.in-addr.arpa" IN { //Reverse lookup name, should match your network in reverse order
 
      type master; // Primary DNS : master
